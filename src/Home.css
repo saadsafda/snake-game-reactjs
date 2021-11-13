@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    overflow: hidden;
+}
+
+.home-bg {
+    height: 100vh;   
+    width: 100vw;
+    background: url("./snake.jpg") no-repeat center center/cover ;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -400px;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(46, 165, 42);
+    color: #225268;
+    font-family: 'Ballet', cursive;
+    font-weight: bold;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
